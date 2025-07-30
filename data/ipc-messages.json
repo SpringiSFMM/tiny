@@ -1,0 +1,3866 @@
+[
+  {
+    "id": "1753889156079",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "163ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.079Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:56.627Z"
+  },
+  {
+    "id": "1753889156093",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.093Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:56.628Z"
+  },
+  {
+    "id": "1753889156291",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.291Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:56.628Z"
+  },
+  {
+    "id": "1753889156476",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "195ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.477Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:56.628Z"
+  },
+  {
+    "id": "1753889156554",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "261ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.555Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:56.628Z"
+  },
+  {
+    "id": "1753889156574",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "141ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.574Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:56.628Z"
+  },
+  {
+    "id": "1753889156853",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.853Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.647Z"
+  },
+  {
+    "id": "1753889156880",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "208ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.880Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889156928",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "162ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.928Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889156955",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "156ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.955Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889156972",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "152ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.972Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889156990",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:25:56.990Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157033",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "155ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.033Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157086",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "177ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.086Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157205",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "140ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.205Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157328",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "149ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.328Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157346",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "171ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.346Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157492",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.492Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157508",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "140ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.508Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157787",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "160ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.787Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889157912",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "240ms"
+    },
+    "timestamp": "2025-07-30T15:25:57.912Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.648Z"
+  },
+  {
+    "id": "1753889158132",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "140ms"
+    },
+    "timestamp": "2025-07-30T15:25:58.133Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.669Z"
+  },
+  {
+    "id": "1753889158188",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "152ms"
+    },
+    "timestamp": "2025-07-30T15:25:58.188Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:25:58.670Z"
+  },
+  {
+    "id": "1753889159540",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "226ms"
+    },
+    "timestamp": "2025-07-30T15:25:59.540Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:00.620Z"
+  },
+  {
+    "id": "1753889160966",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "161ms"
+    },
+    "timestamp": "2025-07-30T15:26:00.966Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.621Z"
+  },
+  {
+    "id": "1753889160980",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:00.980Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.621Z"
+  },
+  {
+    "id": "1753889161322",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.322Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.621Z"
+  },
+  {
+    "id": "1753889161335",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "176ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.335Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.621Z"
+  },
+  {
+    "id": "1753889161379",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "164ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.379Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.621Z"
+  },
+  {
+    "id": "1753889161463",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "205ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.463Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.622Z"
+  },
+  {
+    "id": "1753889161619",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "149ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.619Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.622Z"
+  },
+  {
+    "id": "1753889161666",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.666Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.622Z"
+  },
+  {
+    "id": "1753889161669",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.669Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.622Z"
+  },
+  {
+    "id": "1753889161672",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.672Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.622Z"
+  },
+  {
+    "id": "1753889161681",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.681Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.622Z"
+  },
+  {
+    "id": "1753889161835",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.835Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.622Z"
+  },
+  {
+    "id": "1753889161879",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "163ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.879Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.623Z"
+  },
+  {
+    "id": "1753889161942",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.942Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.623Z"
+  },
+  {
+    "id": "1753889161955",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:01.955Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.623Z"
+  },
+  {
+    "id": "1753889162117",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:02.117Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.623Z"
+  },
+  {
+    "id": "1753889162275",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:26:02.275Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.623Z"
+  },
+  {
+    "id": "1753889162512",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "177ms"
+    },
+    "timestamp": "2025-07-30T15:26:02.512Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.623Z"
+  },
+  {
+    "id": "1753889162536",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "191ms"
+    },
+    "timestamp": "2025-07-30T15:26:02.539Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:02.624Z"
+  },
+  {
+    "id": "1753889162841",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "184ms"
+    },
+    "timestamp": "2025-07-30T15:26:02.841Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:04.624Z"
+  },
+  {
+    "id": "1753889163123",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "148ms"
+    },
+    "timestamp": "2025-07-30T15:26:03.123Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:04.624Z"
+  },
+  {
+    "id": "1753889164216",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:04.216Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:04.624Z"
+  },
+  {
+    "id": "1753889165934",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:05.934Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.623Z"
+  },
+  {
+    "id": "1753889165942",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:05.942Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.623Z"
+  },
+  {
+    "id": "1753889166087",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.087Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.623Z"
+  },
+  {
+    "id": "1753889166090",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "163ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.090Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.623Z"
+  },
+  {
+    "id": "1753889166099",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "169ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.099Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.623Z"
+  },
+  {
+    "id": "1753889166292",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.292Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.623Z"
+  },
+  {
+    "id": "1753889166480",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "195ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.480Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.624Z"
+  },
+  {
+    "id": "1753889166569",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "261ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.569Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.624Z"
+  },
+  {
+    "id": "1753889166575",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "141ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.575Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:06.624Z"
+  },
+  {
+    "id": "1753889166858",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.858Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.625Z"
+  },
+  {
+    "id": "1753889166881",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "208ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.881Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.626Z"
+  },
+  {
+    "id": "1753889166933",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "162ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.933Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.626Z"
+  },
+  {
+    "id": "1753889166964",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.964Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.626Z"
+  },
+  {
+    "id": "1753889166993",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:06.993Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167030",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "155ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.030Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167088",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "177ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.088Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167199",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.199Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167324",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "149ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.324Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167344",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "171ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.344Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167491",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.491Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167517",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "164ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.517Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167782",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "160ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.782Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.627Z"
+  },
+  {
+    "id": "1753889167915",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "240ms"
+    },
+    "timestamp": "2025-07-30T15:26:07.915Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.628Z"
+  },
+  {
+    "id": "1753889168135",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "140ms"
+    },
+    "timestamp": "2025-07-30T15:26:08.135Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.629Z"
+  },
+  {
+    "id": "1753889168188",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "153ms"
+    },
+    "timestamp": "2025-07-30T15:26:08.188Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:08.629Z"
+  },
+  {
+    "id": "1753889169539",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "226ms"
+    },
+    "timestamp": "2025-07-30T15:26:09.539Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:10.630Z"
+  },
+  {
+    "id": "1753889170967",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "161ms"
+    },
+    "timestamp": "2025-07-30T15:26:10.967Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.629Z"
+  },
+  {
+    "id": "1753889170971",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:26:10.971Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.629Z"
+  },
+  {
+    "id": "1753889171225",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.225Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.629Z"
+  },
+  {
+    "id": "1753889171319",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.319Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171377",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "164ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.377Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171473",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "175ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.473Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171624",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "149ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.624Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171684",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.684Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171799",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "135ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.799Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171838",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "154ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.838Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171879",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "163ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.879Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171934",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.934Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.630Z"
+  },
+  {
+    "id": "1753889171973",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:11.973Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.631Z"
+  },
+  {
+    "id": "1753889172115",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:12.115Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.631Z"
+  },
+  {
+    "id": "1753889172289",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:26:12.289Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.631Z"
+  },
+  {
+    "id": "1753889172509",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "177ms"
+    },
+    "timestamp": "2025-07-30T15:26:12.509Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.631Z"
+  },
+  {
+    "id": "1753889172524",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "191ms"
+    },
+    "timestamp": "2025-07-30T15:26:12.524Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:12.631Z"
+  },
+  {
+    "id": "1753889172829",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "184ms"
+    },
+    "timestamp": "2025-07-30T15:26:12.829Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:14.628Z"
+  },
+  {
+    "id": "1753889173123",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:13.123Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:14.629Z"
+  },
+  {
+    "id": "1753889174211",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:14.211Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:14.629Z"
+  },
+  {
+    "id": "1753889175924",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:15.924Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.650Z"
+  },
+  {
+    "id": "1753889175943",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:15.943Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.651Z"
+  },
+  {
+    "id": "1753889176079",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.079Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.651Z"
+  },
+  {
+    "id": "1753889176084",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "153ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.084Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.651Z"
+  },
+  {
+    "id": "1753889176095",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "169ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.095Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.651Z"
+  },
+  {
+    "id": "1753889176291",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.291Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.651Z"
+  },
+  {
+    "id": "1753889176477",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "195ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.477Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.651Z"
+  },
+  {
+    "id": "1753889176571",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "261ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.571Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.652Z"
+  },
+  {
+    "id": "1753889176574",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.574Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:16.652Z"
+  },
+  {
+    "id": "1753889176854",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.854Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.634Z"
+  },
+  {
+    "id": "1753889176894",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "208ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.894Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.634Z"
+  },
+  {
+    "id": "1753889176939",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "152ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.939Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.634Z"
+  },
+  {
+    "id": "1753889176978",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:16.978Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.634Z"
+  },
+  {
+    "id": "1753889177003",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.003Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.634Z"
+  },
+  {
+    "id": "1753889177011",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.011Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889177032",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "155ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.032Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889177093",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "177ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.093Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889177202",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.202Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889177323",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "149ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.324Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889177350",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "171ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.350Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889177549",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.549Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889177789",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "143ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.789Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889177920",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "240ms"
+    },
+    "timestamp": "2025-07-30T15:26:17.920Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889178140",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "183ms"
+    },
+    "timestamp": "2025-07-30T15:26:18.140Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889178243",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "153ms"
+    },
+    "timestamp": "2025-07-30T15:26:18.243Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:18.635Z"
+  },
+  {
+    "id": "1753889179534",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "226ms"
+    },
+    "timestamp": "2025-07-30T15:26:19.534Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:20.635Z"
+  },
+  {
+    "id": "1753889180969",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "148ms"
+    },
+    "timestamp": "2025-07-30T15:26:20.969Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889180972",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:26:20.972Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181226",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.226Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181320",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.320Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181346",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "176ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.346Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181386",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "164ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.386Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181471",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "334ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.471Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181626",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "137ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.626Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181672",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.672Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181673",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.673Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181681",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.681Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181795",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "149ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.795Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181825",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "154ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.825Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.642Z"
+  },
+  {
+    "id": "1753889181933",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.933Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.643Z"
+  },
+  {
+    "id": "1753889181970",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "152ms"
+    },
+    "timestamp": "2025-07-30T15:26:21.970Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.643Z"
+  },
+  {
+    "id": "1753889182119",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:22.119Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.643Z"
+  },
+  {
+    "id": "1753889182280",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "164ms"
+    },
+    "timestamp": "2025-07-30T15:26:22.280Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.643Z"
+  },
+  {
+    "id": "1753889182516",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "177ms"
+    },
+    "timestamp": "2025-07-30T15:26:22.516Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.643Z"
+  },
+  {
+    "id": "1753889182532",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:22.532Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.643Z"
+  },
+  {
+    "id": "1753889182536",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "191ms"
+    },
+    "timestamp": "2025-07-30T15:26:22.536Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:22.643Z"
+  },
+  {
+    "id": "1753889182844",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "184ms"
+    },
+    "timestamp": "2025-07-30T15:26:22.845Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:24.635Z"
+  },
+  {
+    "id": "1753889183132",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:23.132Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:24.635Z"
+  },
+  {
+    "id": "1753889184209",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:24.209Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:24.636Z"
+  },
+  {
+    "id": "1753889185927",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:25.927Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.636Z"
+  },
+  {
+    "id": "1753889185964",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "149ms"
+    },
+    "timestamp": "2025-07-30T15:26:25.964Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.636Z"
+  },
+  {
+    "id": "1753889186082",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.082Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.636Z"
+  },
+  {
+    "id": "1753889186091",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "153ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.091Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.636Z"
+  },
+  {
+    "id": "1753889186098",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "169ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.098Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.636Z"
+  },
+  {
+    "id": "1753889186296",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.296Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.636Z"
+  },
+  {
+    "id": "1753889186487",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "195ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.487Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.636Z"
+  },
+  {
+    "id": "1753889186562",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "261ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.563Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.636Z"
+  },
+  {
+    "id": "1753889186585",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.585Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:26.637Z"
+  },
+  {
+    "id": "1753889186866",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.866Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.636Z"
+  },
+  {
+    "id": "1753889186889",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "208ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.889Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.636Z"
+  },
+  {
+    "id": "1753889186932",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "152ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.932Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889186959",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.959Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889186987",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "156ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.987Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889186995",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:26:26.995Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187031",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.031Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187091",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "177ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.091Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187206",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.206Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187336",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "165ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.336Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187356",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "171ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.357Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187514",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "164ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.514Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187549",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.549Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187797",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 2m",
+      "latency": "143ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.797Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889187924",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "240ms"
+    },
+    "timestamp": "2025-07-30T15:26:27.924Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889188135",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "183ms"
+    },
+    "timestamp": "2025-07-30T15:26:28.135Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889188197",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "153ms"
+    },
+    "timestamp": "2025-07-30T15:26:28.197Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:28.637Z"
+  },
+  {
+    "id": "1753889189532",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "226ms"
+    },
+    "timestamp": "2025-07-30T15:26:29.532Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:30.639Z"
+  },
+  {
+    "id": "1753889190976",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "148ms"
+    },
+    "timestamp": "2025-07-30T15:26:30.976Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.638Z"
+  },
+  {
+    "id": "1753889191322",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.322Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.639Z"
+  },
+  {
+    "id": "1753889191348",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "176ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.348Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.639Z"
+  },
+  {
+    "id": "1753889191386",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "161ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.386Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.639Z"
+  },
+  {
+    "id": "1753889191468",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "205ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.468Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.639Z"
+  },
+  {
+    "id": "1753889191624",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "137ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.624Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.639Z"
+  },
+  {
+    "id": "1753889191672",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "172ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.672Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.639Z"
+  },
+  {
+    "id": "1753889191692",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.692Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.639Z"
+  },
+  {
+    "id": "1753889191699",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.699Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889191831",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "154ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.831Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889191889",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "163ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.889Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889191937",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.937Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889191968",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "152ms"
+    },
+    "timestamp": "2025-07-30T15:26:31.968Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889192120",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "158ms"
+    },
+    "timestamp": "2025-07-30T15:26:32.120Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889192279",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "164ms"
+    },
+    "timestamp": "2025-07-30T15:26:32.279Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889192513",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "153ms"
+    },
+    "timestamp": "2025-07-30T15:26:32.513Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889192524",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:32.524Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889192535",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:26:32.535Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:32.640Z"
+  },
+  {
+    "id": "1753889192834",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "184ms"
+    },
+    "timestamp": "2025-07-30T15:26:32.834Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:34.641Z"
+  },
+  {
+    "id": "1753889193126",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:33.126Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:34.641Z"
+  },
+  {
+    "id": "1753889194226",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:34.226Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:34.641Z"
+  },
+  {
+    "id": "1753889195929",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:35.930Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:36.665Z"
+  },
+  {
+    "id": "1753889195964",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "149ms"
+    },
+    "timestamp": "2025-07-30T15:26:35.964Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:36.671Z"
+  },
+  {
+    "id": "1753889196084",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:26:36.084Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:36.672Z"
+  },
+  {
+    "id": "1753889196101",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "169ms"
+    },
+    "timestamp": "2025-07-30T15:26:36.101Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:36.672Z"
+  },
+  {
+    "id": "1753889196302",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "160ms"
+    },
+    "timestamp": "2025-07-30T15:26:36.303Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:36.672Z"
+  },
+  {
+    "id": "1753889196487",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:26:36.487Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:36.672Z"
+  },
+  {
+    "id": "1753889196591",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:26:36.591Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:36.676Z"
+  },
+  {
+    "id": "1753889196601",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:36.601Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:36.678Z"
+  },
+  {
+    "id": "1753889196867",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:36.867Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.658Z"
+  },
+  {
+    "id": "1753889196916",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:26:36.916Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.668Z"
+  },
+  {
+    "id": "1753889197032",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "152ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.032Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.670Z"
+  },
+  {
+    "id": "1753889197052",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "156ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.052Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.671Z"
+  },
+  {
+    "id": "1753889197089",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "143ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.089Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.671Z"
+  },
+  {
+    "id": "1753889197223",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.223Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.672Z"
+  },
+  {
+    "id": "1753889197342",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "165ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.342Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.672Z"
+  },
+  {
+    "id": "1753889197348",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "170ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.348Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.673Z"
+  },
+  {
+    "id": "1753889197517",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "164ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.517Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.674Z"
+  },
+  {
+    "id": "1753889197547",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.547Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.674Z"
+  },
+  {
+    "id": "1753889197797",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "143ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.797Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.674Z"
+  },
+  {
+    "id": "1753889197923",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 7m",
+      "latency": "146ms"
+    },
+    "timestamp": "2025-07-30T15:26:37.923Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.674Z"
+  },
+  {
+    "id": "1753889198146",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "183ms"
+    },
+    "timestamp": "2025-07-30T15:26:38.146Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.674Z"
+  },
+  {
+    "id": "1753889198196",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "153ms"
+    },
+    "timestamp": "2025-07-30T15:26:38.196Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:38.674Z"
+  },
+  {
+    "id": "1753889200331",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "167ms"
+    },
+    "timestamp": "2025-07-30T15:26:40.331Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:40.661Z"
+  },
+  {
+    "id": "1753889201328",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:26:41.328Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:44.666Z"
+  },
+  {
+    "id": "1753889202091",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "157ms"
+    },
+    "timestamp": "2025-07-30T15:26:42.091Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:44.666Z"
+  },
+  {
+    "id": "1753889202790",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 4m",
+      "latency": "139ms"
+    },
+    "timestamp": "2025-07-30T15:26:42.790Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:44.666Z"
+  },
+  {
+    "id": "1753889202928",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:26:42.928Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:44.666Z"
+  },
+  {
+    "id": "1753889203109",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 6m",
+      "latency": "363ms"
+    },
+    "timestamp": "2025-07-30T15:26:43.109Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:44.666Z"
+  },
+  {
+    "id": "1753889203408",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 5m",
+      "latency": "153ms"
+    },
+    "timestamp": "2025-07-30T15:26:43.408Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:44.676Z"
+  },
+  {
+    "id": "1753889203527",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 3m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:26:43.527Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:44.676Z"
+  },
+  {
+    "id": "1753889206763",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:26:46.763Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:48.677Z"
+  },
+  {
+    "id": "1753889213182",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "150ms"
+    },
+    "timestamp": "2025-07-30T15:26:53.182Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:54.697Z"
+  },
+  {
+    "id": "1753889216811",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:26:56.811Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:58.706Z"
+  },
+  {
+    "id": "1753889218004",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:26:58.004Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:26:58.706Z"
+  },
+  {
+    "id": "1753889220046",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:00.046Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:00.723Z"
+  },
+  {
+    "id": "1753889223104",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "150ms"
+    },
+    "timestamp": "2025-07-30T15:27:03.104Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:04.757Z"
+  },
+  {
+    "id": "1753889223967",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:03.967Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:04.758Z"
+  },
+  {
+    "id": "1753889225412",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:05.412Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:06.806Z"
+  },
+  {
+    "id": "1753889226911",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:06.911Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:09.041Z"
+  },
+  {
+    "id": "1753889228102",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "147ms"
+    },
+    "timestamp": "2025-07-30T15:27:08.104Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:09.044Z"
+  },
+  {
+    "id": "1753889233511",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:13.511Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:14.834Z"
+  },
+  {
+    "id": "1753889242102",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:22.102Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:22.850Z"
+  },
+  {
+    "id": "1753889243541",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "145ms"
+    },
+    "timestamp": "2025-07-30T15:27:23.541Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:24.857Z"
+  },
+  {
+    "id": "1753889248846",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:28.846Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:28.862Z"
+  },
+  {
+    "id": "1753889252176",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:32.176Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:32.972Z"
+  },
+  {
+    "id": "1753889258367",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:38.367Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:38.897Z"
+  },
+  {
+    "id": "1753889263816",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:43.816Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:44.908Z"
+  },
+  {
+    "id": "1753889274039",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:54.039Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:27:54.967Z"
+  },
+  {
+    "id": "1753889279495",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:27:59.495Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:00.982Z"
+  },
+  {
+    "id": "1753889286381",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:06.381Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:06.984Z"
+  },
+  {
+    "id": "1753889290354",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:10.354Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:10.996Z"
+  },
+  {
+    "id": "1753889295830",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:15.830Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:17.029Z"
+  },
+  {
+    "id": "1753889296410",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:16.410Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:17.030Z"
+  },
+  {
+    "id": "1753889300399",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:20.399Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:21.032Z"
+  },
+  {
+    "id": "1753889302583",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "144ms"
+    },
+    "timestamp": "2025-07-30T15:28:22.583Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:23.117Z"
+  },
+  {
+    "id": "1753889312471",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:32.471Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:33.029Z"
+  },
+  {
+    "id": "1753889318598",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:38.598Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:39.066Z"
+  },
+  {
+    "id": "1753889319545",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:39.545Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:41.071Z"
+  },
+  {
+    "id": "1753889322487",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:42.487Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:43.066Z"
+  },
+  {
+    "id": "1753889324080",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:44.080Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:45.066Z"
+  },
+  {
+    "id": "1753889328802",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "140ms"
+    },
+    "timestamp": "2025-07-30T15:28:48.802Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:49.107Z"
+  },
+  {
+    "id": "1753889329595",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:49.595Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:51.141Z"
+  },
+  {
+    "id": "1753889332530",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:52.530Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:53.109Z"
+  },
+  {
+    "id": "1753889334158",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "162ms"
+    },
+    "timestamp": "2025-07-30T15:28:54.158Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:57.153Z"
+  },
+  {
+    "id": "1753889338752",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "140ms"
+    },
+    "timestamp": "2025-07-30T15:28:58.754Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:28:59.137Z"
+  },
+  {
+    "id": "1753889339684",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:28:59.684Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:01.232Z"
+  },
+  {
+    "id": "1753889340188",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:29:00.206Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:01.233Z"
+  },
+  {
+    "id": "1753889341321",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:29:01.321Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:03.148Z"
+  },
+  {
+    "id": "1753889342646",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "168ms"
+    },
+    "timestamp": "2025-07-30T15:29:02.646Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:03.149Z"
+  },
+  {
+    "id": "1753889344199",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "162ms"
+    },
+    "timestamp": "2025-07-30T15:29:04.203Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:05.130Z"
+  },
+  {
+    "id": "1753889345397",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:29:05.397Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:07.135Z"
+  },
+  {
+    "id": "1753889345642",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:29:05.642Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:07.135Z"
+  },
+  {
+    "id": "1753889348810",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "140ms"
+    },
+    "timestamp": "2025-07-30T15:29:08.810Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:09.145Z"
+  },
+  {
+    "id": "1753889349687",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "193ms"
+    },
+    "timestamp": "2025-07-30T15:29:09.687Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:11.263Z"
+  },
+  {
+    "id": "1753889349759",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:29:09.759Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:11.273Z"
+  },
+  {
+    "id": "1753889350029",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "151ms"
+    },
+    "timestamp": "2025-07-30T15:29:10.032Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:11.276Z"
+  },
+  {
+    "id": "1753889351808",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:29:11.808Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:13.141Z"
+  },
+  {
+    "id": "1753889352733",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "168ms"
+    },
+    "timestamp": "2025-07-30T15:29:12.733Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:13.143Z"
+  },
+  {
+    "id": "1753889354174",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "162ms"
+    },
+    "timestamp": "2025-07-30T15:29:14.174Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:15.144Z"
+  },
+  {
+    "id": "1753889355377",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "142ms"
+    },
+    "timestamp": "2025-07-30T15:29:15.379Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:17.170Z"
+  },
+  {
+    "id": "1753889355792",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:29:15.792Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:17.177Z"
+  },
+  {
+    "id": "1753889357732",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:29:17.733Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:19.470Z"
+  },
+  {
+    "id": "1753889359721",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "140ms"
+    },
+    "timestamp": "2025-07-30T15:29:19.725Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:21.232Z"
+  },
+  {
+    "id": "1753889359893",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "159ms"
+    },
+    "timestamp": "2025-07-30T15:29:19.895Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:21.233Z"
+  },
+  {
+    "id": "1753889359967",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "193ms"
+    },
+    "timestamp": "2025-07-30T15:29:19.967Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:21.233Z"
+  },
+  {
+    "id": "1753889361568",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "-1ms"
+    },
+    "timestamp": "2025-07-30T15:29:21.568Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:23.275Z"
+  },
+  {
+    "id": "1753889362631",
+    "type": "bot_stats_update",
+    "data": {
+      "servers": 1,
+      "users": 23,
+      "commands": 0,
+      "uptime": "0d 0h 0m",
+      "latency": "168ms"
+    },
+    "timestamp": "2025-07-30T15:29:22.632Z",
+    "processed": true,
+    "processedAt": "2025-07-30T15:29:23.275Z"
+  }
+]

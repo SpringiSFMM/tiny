@@ -1,0 +1,12 @@
+{
+  "ignore": [
+    ".env",
+    "data/*.json",
+    "*.log"
+  ],
+  "watch": [
+    "*.js",
+    "commands/*.js",
+    "utils/*.js"
+  ]
+}

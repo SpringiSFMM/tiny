@@ -1,0 +1,22 @@
+{
+  "name": "discord-admin-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with administrative slash commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.6.1",
+    "axios": "^1.11.0",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "moment-timezone": "^0.6.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

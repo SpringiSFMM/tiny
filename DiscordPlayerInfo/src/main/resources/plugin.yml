@@ -1,0 +1,17 @@
+name: DiscordPlayerInfo
+version: '1.0.0'
+main: de.springisfm.discordplayerinfo.DiscordPlayerInfo
+api-version: '1.20'
+depend: [LuckPerms]
+softdepend: [Essentials]
+description: 'Provides player information for Discord Bot integration'
+author: SpringiSFM
+commands:
+  discordinfo:
+    description: Main command for DiscordPlayerInfo plugin
+    usage: /<command> [reload|stats]
+    permission: discordplayerinfo.admin
+permissions:
+  discordplayerinfo.admin:
+    description: Allows access to all DiscordPlayerInfo commands
+    default: op

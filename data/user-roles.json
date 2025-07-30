@@ -1,0 +1,64 @@
+{ 
+  "roles": {
+    "administrator": {
+      "name": "Administrator",
+      "permissions": ["read", "write", "edit", "delete", "manage", "upload", "download", "share", "admin", "config", "changelog"],
+      "description": "Vollständige Admin-Berechtigung mit Zugang zu allen Funktionen"
+    },
+    "super_admin": {
+      "name": "Super Administrator",
+      "permissions": ["read", "write", "edit", "delete", "manage", "upload", "download", "share", "admin", "config", "changelog", "system_config"],
+      "description": "Höchste Berechtigungsstufe mit Systemkonfigurationszugriff"
+    },
+    "moderator": {
+      "name": "Moderator",
+      "permissions": ["read", "write", "upload", "download", "share"],
+      "description": "Kann Dateien hochladen und verwalten, Staff-LOAs erstellen aber nicht bearbeiten"
+    },
+    "user": {
+      "name": "Benutzer",
+      "permissions": ["read", "download"],
+      "description": "Standardbenutzer mit eingeschränktem Zugriff"
+    }
+  },
+  "users": {
+    "administrators": [
+      {"id": "springi_sfm", "role": "super_admin", "discord_id": "867740190927093770"},
+      {"id": "qssaf", "role": "administrator", "discord_id": "713419096267554863"},
+      {"id": "tinyhelius", "role": "administrator", "discord_id": "867740190927093770"}
+    ],
+    "moderators": [
+      {"id": "_mooonnn_", "role": "moderator", "discord_id": "821812421231509526"},
+      {"id": "lenablade", "role": "moderator", "discord_id": "711207822515241081"},
+      {"id": "dustishere", "role": "moderator", "discord_id": "961262891221274665"},
+      {"id": "huntwtv", "role": "moderator", "discord_id": "1176618809008861346"},
+      {"id": "_cow_0990", "role": "moderator", "discord_id": "1229508291869020161"},
+      {"id": "mast3rbg", "role": "moderator", "discord_id": "782588133099307040"},
+      {"id": "zombigang.", "role": "moderator", "discord_id": "856801121216757761"},
+      {"id": "zenles", "role": "moderator", "discord_id": "901064817383714826"}
+    ]
+  },
+  "permissions": {
+    "changelogs": {
+      "create": ["super_admin"],
+      "edit": ["super_admin", "administrator"],
+      "delete": ["super_admin"]
+    },
+    "bot_config": {
+      "edit": ["super_admin"],
+      "view": ["super_admin", "administrator"]
+    },
+    "staff_loa": {
+      "create": ["moderator", "administrator", "super_admin"],
+      "edit": ["administrator", "super_admin"],
+      "approve": ["administrator", "super_admin"],
+      "delete": ["super_admin"]
+    },
+    "files": {
+      "upload": ["moderator", "administrator", "super_admin"],
+      "download": ["user", "moderator", "administrator", "super_admin"],
+      "share": ["moderator", "administrator", "super_admin"],
+      "delete": ["administrator", "super_admin"]
+    }
+  }
+}

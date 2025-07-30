@@ -1,0 +1,81 @@
+
+> discord-bot-dashboard@0.1.0 dev
+> vite
+
+
+  VITE v5.4.19  ready in 181 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+4  |  
+5  |  /* Import Inter font */
+6  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+7  |  @import url('https://rsms.me/inter/inter.css');
+8  |  
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+5  |  /* Import Inter font */
+6  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+7  |  @import url('https://rsms.me/inter/inter.css');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+8  |  
+9  |  @layer base {
+10:10:40 PM [vite] Pre-transform error: Failed to resolve import "date-fns" from "src/pages/LoaManager.jsx". Does the file exist?
+10:10:40 PM [vite] Internal server error: Failed to resolve import "date-fns" from "src/pages/LoaManager.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/springi_sfm/Library/Mobile Documents/com~apple~CloudDocs/AUFTRÄGE/Discord Bots/Tiny 1/dashboard/src/pages/LoaManager.jsx:3:82
+  18 |  import React, { useState, useEffect } from "react";
+  19 |  import { useAuth } from "../context/AuthContext";
+  20 |  import { format, formatDistanceToNow, parseISO, isAfter, isBefore, isToday } from "date-fns";
+     |                                                                                     ^
+  21 |  import axios from "axios";
+  22 |  import "./LoaManager.css";
+      at TransformPluginContext._formatError (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:10:42 PM [vite] Internal server error: Failed to resolve import "date-fns" from "src/pages/LoaManager.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/springi_sfm/Library/Mobile Documents/com~apple~CloudDocs/AUFTRÄGE/Discord Bots/Tiny 1/dashboard/src/pages/LoaManager.jsx:3:82
+  18 |  import React, { useState, useEffect } from "react";
+  19 |  import { useAuth } from "../context/AuthContext";
+  20 |  import { format, formatDistanceToNow, parseISO, isAfter, isBefore, isToday } from "date-fns";
+     |                                                                                     ^
+  21 |  import axios from "axios";
+  22 |  import "./LoaManager.css";
+      at TransformPluginContext._formatError (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+10:10:44 PM [vite] Internal server error: Failed to resolve import "date-fns" from "src/pages/LoaManager.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/springi_sfm/Library/Mobile Documents/com~apple~CloudDocs/AUFTRÄGE/Discord Bots/Tiny 1/dashboard/src/pages/LoaManager.jsx:3:82
+  18 |  import React, { useState, useEffect } from "react";
+  19 |  import { useAuth } from "../context/AuthContext";
+  20 |  import { format, formatDistanceToNow, parseISO, isAfter, isBefore, isToday } from "date-fns";
+     |                                                                                     ^
+  21 |  import axios from "axios";
+  22 |  import "./LoaManager.css";
+      at TransformPluginContext._formatError (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///Users/springi_sfm/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/AUFTRA%CC%88GE/Discord%20Bots/Tiny%201/dashboard/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)

@@ -1,0 +1,14 @@
+{
+  "default": {
+    "name": "Hauptserver",
+    "apiUrl": "http://185.240.242.136:19632",
+    "apiPassword": "supersecrettoken123",
+    "description": "Der Hauptserver"
+  },
+  "server2": {
+    "name": "Server 2",
+    "apiUrl": "http://example.com/api",
+    "apiPassword": "anotherpassword",
+    "description": "Der zweite Server"
+  }
+}

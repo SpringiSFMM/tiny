@@ -1,0 +1,18 @@
+[
+  {
+    "id": "changelog-1753815572241",
+    "version": "1.1",
+    "date": "2025-07-29T00:00:00.000Z",
+    "title": "test1",
+    "description": "test2",
+    "changes": [
+      {
+        "type": "added",
+        "description": "test3"
+      }
+    ],
+    "isPublished": false,
+    "createdAt": "2025-07-29T18:59:32.241Z",
+    "createdBy": "springi_sfm"
+  }
+]

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dateizugriff</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      font-family: 'Inter', sans-serif;
+    }
+    .card {
+      background-color: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(71, 85, 105, 0.3);
+      border-radius: 0.75rem;
+    }
+    .btn-primary {
+      background-color: #3b82f6;
+      color: white;
+      transition: all 0.2s;
+    }
+    .btn-primary:hover {
+      background-color: #2563eb;
+    }
+    .input-field {
+      background-color: rgba(15, 23, 42, 0.5);
+      border: 1px solid rgba(71, 85, 105, 0.5);
+      color: #e2e8f0;
+      border-radius: 0.375rem;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+  <div class="card p-8 w-full max-w-md shadow-xl">
+    <div class="text-center mb-6">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+      <h1 class="text-2xl font-bold mt-3 text-white">Geschützte Datei</h1>
+      <p class="text-gray-400 mt-1">Diese Datei erfordert möglicherweise ein Passwort zum Download</p>
+    </div>
+    
+    <div id="loading" class="text-center py-8">
+      <svg class="animate-spin h-8 w-8 mx-auto text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+      </svg>
+      <p class="mt-3 text-gray-400">Lade Dateiinformationen...</p>
+    </div>
+
+    <div id="error-container" class="hidden bg-red-900/30 text-red-300 p-4 rounded-lg mb-6 text-center"></div>
+    
+    <div id="password-form" class="hidden">
+      <p class="text-center mb-4 text-gray-300">Diese Datei ist passwortgeschützt. Bitte geben Sie das Passwort ein:</p>
+      <div class="mb-4">
+        <input type="password" id="password" class="input-field w-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Passwort eingeben">
+      </div>
+      <button id="submit-password" class="btn-primary w-full py-2 px-4 rounded-lg font-medium">Download starten</button>
+    </div>
+    
+    <div id="download-ready" class="hidden text-center">
+      <p class="mb-4 text-gray-300">Die Datei ist zum Download bereit</p>
+      <div class="mb-6">
+        <div class="flex items-center justify-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span id="filename" class="text-white font-medium">document.pdf</span>
+        </div>
+      </div>
+      <div id="media-preview" class="hidden mb-6 overflow-hidden rounded-lg max-h-96"></div>
+      <div class="flex gap-3">
+        <button id="download-button" class="btn-primary w-full py-2 px-4 rounded-lg font-medium">Herunterladen</button>
+        <button id="view-button" class="hidden btn-primary w-full py-2 px-4 rounded-lg font-medium bg-green-600 hover:bg-green-700">Anzeigen</button>
+        <button id="fullscreen-button" class="hidden btn-primary py-2 px-4 rounded-lg font-medium bg-blue-600 hover:bg-blue-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M3 4a1 1 0 011-1h4a1 1 0 010 2H6.414l2.293 2.293a1 1 0 01-1.414 1.414L5 6.414V8a1 1 0 01-2 0V4zm9 1a1 1 0 010-2h4a1 1 0 011 1v4a1 1 0 01-2 0V6.414l-2.293 2.293a1 1 0 11-1.414-1.414L13.586 5H12zm-9 7a1 1 0 012 0v1.586l2.293-2.293a1 1 0 011.414 1.414L6.414 15H8a1 1 0 010 2H4a1 1 0 01-1-1v-4zm13-1a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 010-2h1.586l-2.293-2.293a1 1 0 011.414-1.414L15 13.586V12a1 1 0 011-1z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <div id="expired" class="hidden text-center py-8">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      <h2 class="text-xl font-semibold text-white mt-4">Link ungültig oder abgelaufen</h2>
+      <p class="text-gray-400 mt-2">Dieser Download-Link ist nicht mehr gültig oder wurde deaktiviert.</p>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParts = window.location.pathname.split('/');
+      const fileId = urlParts[urlParts.length - 1];
+      
+      const loadingElement = document.getElementById('loading');
+      const errorContainer = document.getElementById('error-container');
+      const passwordForm = document.getElementById('password-form');
+      const downloadReady = document.getElementById('download-ready');
+      const expired = document.getElementById('expired');
+      const filenameElement = document.getElementById('filename');
+      
+      // Überprüfen des Dateilinks ohne Passwort
+      checkFileAccess();
+      
+      // Alternative Anzeige-Funktion, die einen GET-Request mit view=true sendet
+      function viewFile(password = null) {
+        const mediaPreview = document.getElementById('media-preview');
+        const viewUrl = `/api/files/public/${fileId}?view=true${password ? `&password=${encodeURIComponent(password)}` : ''}`;
+        
+        // Filetype aus URL-Parametern auslesen, falls vorhanden
+        const urlParams = new URLSearchParams(window.location.search);
+        const fileType = urlParams.get('type');
+        
+        if (fileType === 'image') {
+          const img = document.createElement('img');
+          img.src = viewUrl;
+          img.className = 'w-full h-auto';
+          mediaPreview.innerHTML = '';
+          mediaPreview.appendChild(img);
+          mediaPreview.classList.remove('hidden');
+        } else if (fileType === 'video') {
+          const video = document.createElement('video');
+          video.src = viewUrl;
+          video.className = 'w-full h-auto';
+          video.controls = true;
+          video.autoplay = true;
+          mediaPreview.innerHTML = '';
+          mediaPreview.appendChild(video);
+          mediaPreview.classList.remove('hidden');
+        }
+      }
+      
+      function checkFileAccess(password = null, view = false) {
+        const requestOptions = {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: password ? JSON.stringify({ password, view }) : JSON.stringify({ view })
+        };
+        
+        fetch(`/api/files/public/${fileId}`, requestOptions)
+          .then(response => {
+            if (response.ok) {
+              // Datei ist verfügbar und wird heruntergeladen
+              const disposition = response.headers.get('Content-Disposition');
+              let filename = 'download';
+              
+              if (disposition && disposition.indexOf('filename=') !== -1) {
+                filename = disposition.split('filename=')[1].replace(/"/g, '').replace(/'/g, '');
+              }
+              
+              response.blob().then(blob => {
+                loadingElement.classList.add('hidden');
+                downloadReady.classList.remove('hidden');
+                filenameElement.textContent = filename;
+                
+                // URL für Blob erstellen
+                const url = window.URL.createObjectURL(blob);
+                const fileExtension = filename.split('.').pop().toLowerCase();
+                
+                // Prüfen, ob es sich um Bild oder Video handelt
+                const isImage = ['jpg', 'jpeg', 'png', 'gif', 'svg', 'webp'].includes(fileExtension);
+                const isVideo = ['mp4', 'webm', 'ogg', 'mov', 'avi'].includes(fileExtension);
+                const viewButton = document.getElementById('view-button');
+                const mediaPreview = document.getElementById('media-preview');
+                
+                if (isImage || isVideo) {
+                  viewButton.classList.remove('hidden');
+                  const fullscreenButton = document.getElementById('fullscreen-button');
+                  
+                  // Funktion zum Anzeigen des Mediums
+                  viewButton.addEventListener('click', function() {
+                    mediaPreview.innerHTML = '';
+                    mediaPreview.classList.remove('hidden');
+                    
+                    if (isImage) {
+                      const img = document.createElement('img');
+                      img.src = url;
+                      img.className = 'w-full h-auto object-contain max-h-96';
+                      mediaPreview.appendChild(img);
+                      fullscreenButton.classList.remove('hidden');
+                    } else if (isVideo) {
+                      const video = document.createElement('video');
+                      video.src = url;
+                      video.className = 'w-full h-auto max-h-96';
+                      video.controls = true;
+                      mediaPreview.appendChild(video);
+                      fullscreenButton.classList.remove('hidden');
+                    }
+                    
+                    // Vollbildmodus-Button
+                    fullscreenButton.onclick = function() {
+                      const element = mediaPreview.firstChild;
+                      if (element) {
+                        if (element.requestFullscreen) {
+                          element.requestFullscreen();
+                        } else if (element.webkitRequestFullscreen) { /* Safari */
+                          element.webkitRequestFullscreen();
+                        } else if (element.msRequestFullscreen) { /* IE11 */
+                          element.msRequestFullscreen();
+                        }
+                      }
+                    };
+                  });
+                }
+                
+                document.getElementById('download-button').addEventListener('click', function() {
+                  const a = document.createElement('a');
+                  a.style.display = 'none';
+                  a.href = url;
+                  a.download = filename;
+                  document.body.appendChild(a);
+                  a.click();
+                  document.body.removeChild(a);
+                });
+              });
+            } else {
+              return response.json().then(data => {
+                if (data.requiresPassword) {
+                  // Passwortschutz anzeigen
+                  loadingElement.classList.add('hidden');
+                  passwordForm.classList.remove('hidden');
+                  
+                  document.getElementById('submit-password').addEventListener('click', function() {
+                    const password = document.getElementById('password').value;
+                    if (password) {
+                      passwordForm.classList.add('hidden');
+                      loadingElement.classList.remove('hidden');
+                      checkFileAccess(password);
+                    }
+                  });
+                  
+                  document.getElementById('password').addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                      const password = document.getElementById('password').value;
+                      if (password) {
+                        passwordForm.classList.add('hidden');
+                        loadingElement.classList.remove('hidden');
+                        checkFileAccess(password);
+                      }
+                    }
+                  });
+                } else if (response.status === 404 || response.status === 403) {
+                  // Link abgelaufen oder ungültig
+                  loadingElement.classList.add('hidden');
+                  expired.classList.remove('hidden');
+                } else {
+                  // Andere Fehler
+                  loadingElement.classList.add('hidden');
+                  errorContainer.classList.remove('hidden');
+                  errorContainer.textContent = data.error || 'Beim Abrufen der Datei ist ein Fehler aufgetreten';
+                }
+              });
+            }
+          })
+          .catch(error => {
+            loadingElement.classList.add('hidden');
+            errorContainer.classList.remove('hidden');
+            errorContainer.textContent = 'Netzwerkfehler: Verbindung konnte nicht hergestellt werden';
+          });
+      }
+    });
+  </script>
+</body>
+</html>

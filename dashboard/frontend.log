@@ -1,0 +1,23 @@
+
+> discord-bot-dashboard@0.1.0 dev
+> vite
+
+
+  VITE v5.4.19  ready in 5208 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+4  |  
+5  |  /* Import Inter font */
+6  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+7  |  @import url('https://rsms.me/inter/inter.css');
+8  |  
+[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+5  |  /* Import Inter font */
+6  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+7  |  @import url('https://rsms.me/inter/inter.css');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+8  |  
+9  |  @layer base {

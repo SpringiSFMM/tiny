@@ -1,0 +1,38 @@
+## DiscordPlayerInfo Configuration
+
+# API Configuration
+api:
+  # Enable the REST API for the Discord bot to connect to
+  enabled: true
+  
+  # Port for the REST API server
+  port: 8080
+  
+  # API key for authentication (leave empty to disable authentication)
+  # Important: Change this to a secure value in production!
+  api-key: "dnoin3eoije2omw2kwoj2sow"
+  
+  # Allow CORS (Cross-Origin Resource Sharing)
+  allow-cors: true
+  
+  # Allowed origins for CORS (use * for all origins)
+  allowed-origins: "*"
+  
+# Player Data Settings
+player-data:
+  # Cache duration in seconds (how long to cache player data)
+  cache-duration: 300
+  
+  # Include AFK status from Essentials (if available)
+  include-afk: true
+  
+  # Include player statistics
+  include-stats: true
+  
+  # Default timezone if not specified by the player
+  default-timezone: "Europe/Berlin"
+  
+# Debug Settings
+debug:
+  enabled: true
+  log-api-requests: true
