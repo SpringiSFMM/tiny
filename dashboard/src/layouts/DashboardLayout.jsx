@@ -179,10 +179,8 @@ const DashboardLayout = ({ children }) => {
                   </span>
                 </div>
                 <ul className="space-y-1">
-                  {renderNavItems(adminNavItems.filter(item => 
-                    !item.requiredRole || 
-                    item.requiredRole === userRole ||
-                    (item.requiredRole === 'administrator' && userRole === 'super_admin')
+                  {renderNavItems(userRole === 'super_admin' ? adminNavItems : adminNavItems.filter(item => 
+                    !item.requiredRole || item.requiredRole === userRole
                   ))}
                 </ul>
               </>

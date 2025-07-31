@@ -9,8 +9,8 @@ export DASHBOARD_PORT=3001
 export JWT_SECRET=your_jwt_secret_key_change_in_production
 export DISCORD_CLIENT_ID=1387777145975210014
 export DISCORD_CLIENT_SECRET=N-oG9MCpF82sP9TOfPKUp8qkA9GzyMux
-export DISCORD_REDIRECT_URI=http://localhost:5173/auth/callback
-export CLIENT_URL=http://localhost:5173
+export DISCORD_REDIRECT_URI=https://tiny.springisfm-dev.de/auth/callback
+export CLIENT_URL=https://tiny.springisfm-dev.de
 
 # Farbige Ausgabe
 GREEN='\033[0;32m'
@@ -23,6 +23,7 @@ echo -e "${YELLOW}Stoppe alle laufenden Prozesse...${NC}"
 pkill -f "node server/server.js" > /dev/null 2>&1 || true
 pkill -f "vite" > /dev/null 2>&1 || true
 pkill -f "node index.js" > /dev/null 2>&1 || true
+pkill -f "serve" > /dev/null 2>&1 || true
 
 # Warte einen Moment
 sleep 1
@@ -56,7 +57,7 @@ cd "$DASHBOARD_DIR" && node server/server.js > api-server.log 2>&1 &
 API_PID=$!
 sleep 3
 
-# Überprüfen, ob der API-Server noch läuft (mit kill -0 statt ps)
+# Überprüfen, ob der API-Server noch läuft
 if kill -0 $API_PID 2>/dev/null; then
     echo -e "${GREEN}API-Server gestartet (PID: $API_PID)${NC}"
 else
@@ -79,18 +80,39 @@ fi
 # Warte einen Moment
 sleep 2
 
-# Frontend starten
-echo -e "${YELLOW}Starte Dashboard Frontend...${NC}"
-cd "$DASHBOARD_DIR" && /usr/local/bin/npm run dev > frontend.log 2>&1 &
-FRONTEND_PID=$!
-sleep 1
+# Optionen für die Frontend-Bereitstellung
+USE_STATIC_BUILD=true # Auf false setzen für Entwicklungsmodus
 
-# Überprüfen, ob der Frontend-Server noch läuft (mit kill -0 statt ps)
-if kill -0 $FRONTEND_PID 2>/dev/null; then
-    echo -e "${GREEN}Frontend-Server gestartet (PID: $FRONTEND_PID)${NC}"
+if [ "$USE_STATIC_BUILD" = true ]; then
+    # Statischen Build erstellen (bessere Kompatibilität mit Nginx)
+    echo -e "${YELLOW}Erstelle statischen Build für das Frontend...${NC}"
+    cd "$DASHBOARD_DIR" && /usr/local/bin/npm run build > frontend.log 2>&1
+    BUILD_STATUS=$?
+    
+    if [ $BUILD_STATUS -ne 0 ]; then
+        echo -e "${RED}Frontend-Build fehlgeschlagen! Überprüfe frontend.log für Details.${NC}"
+        echo -e "${YELLOW}=== Letzten 20 Zeilen des Logs: ===${NC}"
+        tail -n 20 "$DASHBOARD_DIR/frontend.log"
+        exit 1
+    fi
+    
+    # Starte einen einfachen HTTP-Server für die statischen Dateien
+    echo -e "${YELLOW}Starte HTTP-Server für statische Dateien...${NC}"
+    cd "$DASHBOARD_DIR/dist" && npx serve -s -l 5173 > "$DASHBOARD_DIR/frontend.log" 2>&1 &
+    FRONTEND_PID=$!
+    echo -e "${GREEN}Frontend-Server für statische Dateien gestartet (PID: $FRONTEND_PID)${NC}"
 else
-    # Überprüfe die Log-Datei nach Fehlern
-    if grep -i "error\|exception\|fail" "$DASHBOARD_DIR/frontend.log" > /dev/null; then
+    # Entwicklungsmodus mit Vite
+    echo -e "${YELLOW}Starte Dashboard Frontend (Entwicklungsmodus)...${NC}"
+    # Wichtig: --host Flag hinzugefügt, damit der Server auf allen Netzwerkschnittstellen hört
+    cd "$DASHBOARD_DIR" && /usr/local/bin/npm run dev -- --host --port 5173 > frontend.log 2>&1 &
+    FRONTEND_PID=$!
+    sleep 3
+    
+    # Überprüfen, ob der Frontend-Server noch läuft
+    if kill -0 $FRONTEND_PID 2>/dev/null; then
+        echo -e "${GREEN}Frontend-Server gestartet (PID: $FRONTEND_PID)${NC}"
+    else
         echo -e "${RED}Frontend-Server konnte nicht gestartet werden! Überprüfe frontend.log für Details.${NC}"
         echo -e "${YELLOW}=== Letzten 20 Zeilen des Logs: ===${NC}"
         tail -n 20 "$DASHBOARD_DIR/frontend.log"
@@ -99,9 +121,6 @@ else
         cp "$DASHBOARD_DIR/frontend.log" "$PROJECT_ROOT/frontend-error.log"
         echo -e "${YELLOW}Log-Datei wurde auch nach $PROJECT_ROOT/frontend-error.log kopiert${NC}"
         exit 1
-    else
-        # Wenn keine Fehler im Log gefunden wurden, nehmen wir an, dass der Server läuft
-        echo -e "${GREEN}Frontend-Server scheint gestartet zu sein (PID: $FRONTEND_PID)${NC}"
     fi
 fi
 
@@ -112,8 +131,8 @@ echo -e "Discord Bot: ${GREEN}läuft${NC} (PID: $BOT_PID) - Logs in: $PROJECT_RO
 echo -e "API-Server: ${GREEN}läuft${NC} (PID: $API_PID) - Logs in: $DASHBOARD_DIR/api-server.log"
 echo -e "Frontend: ${GREEN}läuft${NC} (PID: $FRONTEND_PID) - Logs in: $DASHBOARD_DIR/frontend.log"
 echo
-echo -e "${YELLOW}Dashboard ist verfügbar unter:${NC} http://localhost:5173"
-echo -e "${YELLOW}Um alle Prozesse zu stoppen:${NC} pkill -f 'node server/server.js' && pkill -f 'vite' && pkill -f 'node index.js'"
+echo -e "${YELLOW}Dashboard ist verfügbar unter:${NC} https://tiny.springisfm-dev.de"
+echo -e "${YELLOW}Um alle Prozesse zu stoppen:${NC} pkill -f 'node server/server.js' && pkill -f 'vite' && pkill -f 'serve' && pkill -f 'node index.js'"
 echo
 
 # Für Pterodactyl müssen wir sicherstellen, dass der Hauptprozess aktiv bleibt
@@ -121,4 +140,4 @@ echo -e "${YELLOW}Halte den Hauptprozess aktiv, damit Pterodactyl den Server als
 echo -e "${YELLOW}Drücke CTRL+C, um alle Prozesse zu beenden${NC}"
 
 # In Pterodactyl muss der Hauptprozess am Leben bleiben
-tail -f "$PROJECT_ROOT/bot.log" "$DASHBOARD_DIR/api-server.log" "$DASHBOARD_DIR/frontend.log" 
+tail -f "$PROJECT_ROOT/bot.log" "$DASHBOARD_DIR/api-server.log" "$DASHBOARD_DIR/frontend.log"

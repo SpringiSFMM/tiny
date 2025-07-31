@@ -2,7 +2,7 @@ const { Events, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 const { updateLoaStatus, getLoaById, getLoaMessageId, storeLoaMessageId } = require('../utils/loa-sync-cjs');
-const { sendLoaToDiscord, sendChangelogToDiscord } = require('../utils/dashboard-integration');
+const { sendLoaToDiscord, sendChangelogToDiscord } = require('../utils/dashboard-integration-cjs');
 const { processMessages } = require('../utils/ipc-cjs');
 
 // Use a global variable to track if the handler is initialized

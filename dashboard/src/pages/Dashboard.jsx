@@ -94,7 +94,7 @@ const Dashboard = () => {
     const token = localStorage.getItem('token');
     
     // Connect to socket.io server with auth token
-    const socket = io('http://localhost:3001', {
+    const socket = io({
       auth: { token }
     });
     

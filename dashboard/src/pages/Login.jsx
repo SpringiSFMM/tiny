@@ -1,11 +1,11 @@
 import React from 'react';
 
-const DISCORD_CLIENT_ID = import.meta.env.VITE_DISCORD_CLIENT_ID || '1396171389109452900';
-const REDIRECT_URI = import.meta.env.VITE_DISCORD_REDIRECT_URI || 'http://localhost:5173/auth/callback';
+const DISCORD_CLIENT_ID = import.meta.env.VITE_DISCORD_CLIENT_ID || '1387777145975210014';
+const REDIRECT_URI = import.meta.env.VITE_DISCORD_REDIRECT_URI || 'https://tiny.springisfm-dev.de/auth/callback';
 
 const Login = () => {
   const handleDiscordLogin = () => {
-    const scope = 'identify email guilds';
+    const scope = 'identify email guilds bot applications.commands';
     const discordAuthUrl = `https://discord.com/api/oauth2/authorize?client_id=${DISCORD_CLIENT_ID}&redirect_uri=${encodeURIComponent(
       REDIRECT_URI
     )}&response_type=code&scope=${encodeURIComponent(scope)}`;

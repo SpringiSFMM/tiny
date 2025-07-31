@@ -38,7 +38,7 @@ const PORT = process.env.DASHBOARD_PORT || 3001;
 const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret_key_change_in_production';
 const DISCORD_CLIENT_ID = process.env.DISCORD_CLIENT_ID || '1387777145975210014';
 const DISCORD_CLIENT_SECRET = process.env.DISCORD_CLIENT_SECRET || 'N-oG9MCpF82sP9TOfPKUp8qkA9GzyMux';
-const DISCORD_REDIRECT_URI = process.env.DISCORD_REDIRECT_URI || 'http://localhost:5173/auth/callback';
+const DISCORD_REDIRECT_URI = process.env.DISCORD_REDIRECT_URI || 'https://tiny.springisfm-dev.de/auth/callback';
 const DEVELOPER_ID = '563877348173414454';
 
 // Initialize Discord OAuth2
@@ -51,7 +51,7 @@ const oauth = new DiscordOauth2({
 // Initialize Express
 const app = express();
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
+  origin: process.env.CLIENT_URL || 'https://tiny.springisfm-dev.de',
   credentials: true
 }));
 app.use(express.json());
@@ -79,7 +79,7 @@ if (process.env.NODE_ENV !== 'production') {
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: process.env.CLIENT_URL || 'https://tiny.springisfm-dev.de',
     credentials: true
   }
 });
@@ -132,6 +132,9 @@ const isAdmin = (req, res, next) => {
 
 // Auth routes
 app.post('/api/auth/token', async (req, res) => {
+  console.log('==============================================');
+  console.log('AUTH TOKEN REQUEST RECEIVED - FULL REQUEST BODY:', JSON.stringify(req.body));
+  console.log('==============================================');
   try {
     const { code } = req.body;
     
@@ -159,23 +162,65 @@ app.post('/api/auth/token', async (req, res) => {
       scope: 'identify email guilds'
     };
     
-    const tokenResponse = await axios.post(
-      'https://discord.com/api/v10/oauth2/token',
-      querystring.stringify(tokenRequestData),
-      {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        }
-      }
-    );
+    console.log('Sending token request to Discord with data:', {
+      client_id: DISCORD_CLIENT_ID,
+      redirect_uri: DISCORD_REDIRECT_URI,
+      code_length: code ? code.length : 0
+    });
     
-    console.log('OAuth2 token request successful');
+    try {
+      const tokenResponse = await axios.post(
+        'https://discord.com/api/oauth2/token',
+        querystring.stringify(tokenRequestData),
+        {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          }
+        }
+      );
+      console.log('Discord token response successful');
+    } catch (tokenError) {
+      console.error('Discord token exchange error:', tokenError.message);
+      if (tokenError.response) {
+        console.error('Discord error details:', {
+          status: tokenError.response.status,
+          data: tokenError.response.data
+        });
+      }
+      throw new Error(`Discord token exchange failed: ${tokenError.message}`);
+    }
+    
+    // Variable tokenResponse is not defined after our try/catch block!
+    // Let's redefine it in the outer scope
+    let tokenData;
+    try {
+      const tokenResponse = await axios.post(
+        'https://discord.com/api/oauth2/token',
+        querystring.stringify(tokenRequestData),
+        {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          }
+        }
+      );
+      tokenData = tokenResponse.data;
+      console.log('OAuth2 token request successful');
+    } catch (tokenError) {
+      console.error('Discord token exchange error:', tokenError.message);
+      if (tokenError.response) {
+        console.error('Discord error details:', {
+          status: tokenError.response.status,
+          data: tokenError.response.data
+        });
+      }
+      throw new Error(`Discord token exchange failed: ${tokenError.message}`);
+    }
     
     // Get user info
     console.log('Getting user info...');
-    const userResponse = await axios.get('https://discord.com/api/v10/users/@me', {
+    const userResponse = await axios.get('https://discord.com/api/users/@me', {
       headers: {
-        'Authorization': `Bearer ${tokenResponse.data.access_token}`
+        'Authorization': `Bearer ${tokenData.access_token}`
       }
     });
     
@@ -217,11 +262,23 @@ app.post('/api/auth/token', async (req, res) => {
         data: error.response.data,
         headers: error.response.headers
       });
+    } else {
+      console.error('No response in error object:', error.message);
     }
     
-    res.status(500).json({ error: 'Authentication failed', details: error.message });
-  }
-});
+    // Detaillierte Fehlerrückgabe zum Debuggen
+    return res.status(500).json({ 
+      error: 'Authentication failed', 
+      details: error.message,
+      stack: error.stack,
+      tokenRequestData: {
+        client_id: DISCORD_CLIENT_ID,
+        redirect_uri: DISCORD_REDIRECT_URI,
+        original_code_length: code ? code.length : 0,
+        code_start: code ? code.substring(0, 10) + '...' : 'missing'
+      }
+    });
+  
 
 // Protected routes
 app.get('/api/stats', authenticateJWT, (req, res) => {

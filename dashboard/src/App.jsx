@@ -68,7 +68,7 @@ const RoleRoute = ({ element, requiredRoles }) => {
 
 // Super-Admin Route (nur für springi_sfm)
 const SuperAdminRoute = ({ element }) => {
-  const { isAuthenticated, isLoading, userRole } = useAuth();
+  const { isAuthenticated, isLoading, userRole, isAdmin } = useAuth();
   
   if (isLoading) {
     return (
@@ -78,7 +78,8 @@ const SuperAdminRoute = ({ element }) => {
     );
   }
   
-  return isAuthenticated && userRole === 'super_admin' ? element : <Navigate to="/dashboard" />;
+  console.log('SuperAdminRoute - userRole:', userRole, 'isAdmin:', isAuthenticated);
+  return isAuthenticated && (userRole === 'super_admin' || isAdmin) ? element : <Navigate to="/dashboard" />;
 };
 
 function App() {

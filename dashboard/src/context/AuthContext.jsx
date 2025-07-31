@@ -35,7 +35,7 @@ export const AuthProvider = ({ children }) => {
               username: payload.username,
               avatar: payload.avatar,
               isAdmin: payload.isAdmin || false, // Legacy isAdmin flag
-              role: payload.role || 'user',
+              role: payload.role || (payload.isAdmin ? 'super_admin' : 'user'),
               roleName: payload.roleName || 'Benutzer',
               permissions: payload.permissions || []
             };
@@ -83,7 +83,7 @@ export const AuthProvider = ({ children }) => {
       // Set user from response
       setUser(response.data.user);
       setIsAdmin(response.data.user.isAdmin || false);
-      setUserRole(response.data.user.role || 'user');
+      setUserRole(response.data.user.role || (response.data.user.isAdmin ? 'super_admin' : 'user'));
       setPermissions(response.data.user.permissions || []);
       setIsAuthenticated(true);
       

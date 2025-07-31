@@ -13,6 +13,8 @@ export default defineConfig({
   server: {
     port: 5173,
     open: true,
+    host: true,
+    allowedHosts: ["localhost", "tiny.springisfm-dev.de"],
     proxy: {
       // API-Anfragen zum Backend-Server
       '/api': {
@@ -28,4 +30,4 @@ export default defineConfig({
       }
     }
   }
-}); 
+});

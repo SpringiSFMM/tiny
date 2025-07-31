@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const Config = () => {
   const { getAuthHeader, user } = useAuth();
-  const isAdmin = user?.isAdmin;
+  const isAdmin = user?.isAdmin || user?.role === 'super_admin';
   
   const [config, setConfig] = useState({
     botName: 'Tiny Bot',
@@ -27,7 +27,7 @@ const Config = () => {
       try {
         setLoading(true);
         const token = localStorage.getItem('token');
-        const response = await axios.get('http://localhost:3001/api/config', {
+        const response = await axios.get('/api/config', {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -84,7 +84,7 @@ const Config = () => {
     try {
       setIsSaving(true);
       const token = localStorage.getItem('token');
-      await axios.post('http://localhost:3001/api/config', config, {
+      await axios.post('/api/config', config, {
         headers: {
           Authorization: `Bearer ${token}`
         }
